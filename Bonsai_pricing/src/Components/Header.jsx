@@ -42,7 +42,10 @@ const Header = () => {
 			</div>
 
 			{isdropthere && (
-				<div className="absolute top-[76px] translate-x-60 h-96 w-96 bg-black"></div>
+				<div
+					className="absolute top-[50px] translate-x-60 h-96 w-96 bg-black"
+					onMouseOver={handleHover}
+					onMouseOut={handleUnhover}></div>
 			)}
 
 			<div className="flex flex-row space-x-6">
